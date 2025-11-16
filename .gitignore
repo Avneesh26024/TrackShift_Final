@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# --- EXCEPTIONS ---
+# Keep the following files and directories
+
+# Keep this .gitignore file
+!.gitignore
+
+# Keep the application and API files
+!api.py
+!api_server.py
+!app.py
+!main.py
+
+# Keep the WinCLIP directory and everything inside it
+!WinCLIP/
+!WinCLIP/**
+
+# Still ignore these standard folders
+.venv/
+__pycache__/
+test_run_outputs/
